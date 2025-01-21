@@ -9,7 +9,7 @@ import json, time
 import pandas as pd
 from docx import Document
 
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyDBYwT1atq4es0NST5mk10BASONgj1FFqQ'
+os.environ["GOOGLE_API_KEY"] = 'AIzaSyC-5pk7MkxYojkCOyuFrelM_NP0O1X_rJo'
 
 # Initialize the ChatGoogleGenerativeAI model
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest")
